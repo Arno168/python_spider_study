@@ -59,7 +59,7 @@ def parse_detail_page(url):
     cover = imgs[0]
     screenshot = imgs[1]
     # //p[position()>1]
-    infos = zoomEle.xpath(".//p[position()>1]/text()")
+    infos = zoomEle.xpath(".//text()")
     year = ""
     country = ""
     category = ""
