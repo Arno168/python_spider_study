@@ -23,4 +23,4 @@ with open("renren.html", "w", encoding="utf-8") as fp:
         print()函数之后无法写入html
     '''
     fp.write(resp.read().decode("utf-8"))
-    fp.close()
+    
